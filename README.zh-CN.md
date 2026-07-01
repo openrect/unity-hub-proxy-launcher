@@ -38,7 +38,7 @@ launch-unity-hub-proxy.cmd http://127.0.0.1:10809
 指定 Unity Hub 路径：
 
 ```bat
-launch-unity-hub-proxy.cmd http://127.0.0.1:7890 "D:\Apps\Unity Hub\Unity Hub.exe"
+launch-unity-hub-proxy.cmd http://127.0.0.1:7890 "C:\Program Files\Unity Hub\Unity Hub.exe"
 ```
 
 查看帮助：
