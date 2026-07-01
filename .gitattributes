@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Windows command scripts should keep CRLF line endings.
+*.cmd text eol=crlf
