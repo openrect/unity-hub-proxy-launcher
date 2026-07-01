@@ -27,6 +27,12 @@ Proxy: http://127.0.0.1:7890
 Unity Hub: %ProgramFiles%\Unity Hub\Unity Hub.exe
 ```
 
+## Successful Result
+
+After Unity Hub starts correctly, it should be able to load the home page, setup guide, installs, or resource content through your configured network environment.
+
+![Unity Hub started successfully through the configured proxy](docs/images/unity-hub-success.png)
+
 ## Usage
 
 Use a custom proxy:
@@ -73,11 +79,16 @@ Do not change the system-wide proxy. Do not modify the Windows registry. Only us
 
 If your AI tool cannot read web pages, copy the README content directly into the chat.
 
+## Official Unity Documentation
+
+Unity also documents proxy configuration for Unity environments: [Use Unity through web proxies](https://docs.unity3d.com/6000.6/Documentation/Manual/ent-proxy-autoconfig.html).
+
 ## Notes
 
 - The proxy only applies to the Unity Hub process started by this script and child processes inheriting its environment.
 - Make sure your local proxy application is already running before launching Unity Hub.
 - If Unity Hub is installed in a non-default location, pass the path as the second argument or set `UNITY_HUB_PATH`.
+- This project does not provide a proxy service and does not bypass licensing, payment, account, or access-control mechanisms.
 
 ## License
 
